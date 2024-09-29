@@ -8,3 +8,5 @@ class Solution:
         nums = removed_elements + nums
 
         return nums
+
+"this code has an issue concerning reassigning nums, turns out reassigning nums creates a different object of nums and affects function calling due to which i cant, what are poissible ways exist ? let me explore, however this code has been uploaded just for the sake of version history."
