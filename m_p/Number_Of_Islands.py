@@ -14,6 +14,7 @@ class Solution:
                 zero(i,j-1)
             
             return
+        print("hello world")
 
         total =0
         for i in range(m):
@@ -23,3 +24,4 @@ class Solution:
                     zero(i,j)
 
         return total   
+    
