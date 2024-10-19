@@ -6,3 +6,5 @@ def printisokay():
         print ("true")
     else:
         print("false")
+
+printisokay()
