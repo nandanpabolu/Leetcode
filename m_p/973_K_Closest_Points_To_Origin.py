@@ -9,7 +9,7 @@ class Solution:
         for point in points:
             x, y = point
             distance = math.sqrt(x ** 2 + y ** 2)  # Distance from origin (0, 0)
-            distances.append((distance, point))  # Store distance and point as a tuple
+            distances.append((distance, point))  # Store distance and point as a tuple #Highlights the use of tuples in code.
 
         # Sort the list by distance
         distances.sort(key=lambda x: x[0])
