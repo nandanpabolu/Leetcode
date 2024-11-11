@@ -11,7 +11,7 @@ class Solution:
         
         # Initialize two pointers and a count for rooms
         start_pointer = 0
-        end_pointer = 0
+        end_pointer = 0 
         rooms_needed = 0
         max_rooms = 0
         
