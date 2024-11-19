@@ -29,4 +29,5 @@ class Solution:
             result = result * 10 + digit
             i += 1
 
-        return result * sign
+        return result * sign 
+    #stack overflow issue in iterative function call stack
