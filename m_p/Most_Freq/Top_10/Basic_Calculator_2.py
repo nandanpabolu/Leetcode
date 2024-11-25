@@ -28,3 +28,5 @@ class Solution:
                 operator = char
 
         return sum(stack)  # Sum the results in the stack
+
+# Time complexity is O(n)
