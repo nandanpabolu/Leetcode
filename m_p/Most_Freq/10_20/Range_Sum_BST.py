@@ -29,3 +29,5 @@ class Solution:
                     queue.append(node.right)  # Explore right subtree if node value < high
         
         return total_sum
+    
+    # Time complecity O(n)
