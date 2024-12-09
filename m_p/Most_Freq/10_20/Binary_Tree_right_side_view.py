@@ -13,7 +13,7 @@ class Solution:
             return []
         queue = deque([root])
         output = []
-        while queue:
+        while queue: 
             lev_size = len(queue)
             
             for i in range(lev_size):
