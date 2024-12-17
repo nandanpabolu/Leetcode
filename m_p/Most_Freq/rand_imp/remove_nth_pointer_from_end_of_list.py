@@ -21,4 +21,5 @@ class Solution:
 
         return dummy.next
 
-
+#Time Complexity is O(L) where L is the length of the list
+#Space Complexity is O(1) since no other variables used other than fixed ones
